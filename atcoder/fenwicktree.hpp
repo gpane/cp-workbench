@@ -26,6 +26,7 @@ template <class T> struct fenwick_tree {
     }
 
     T sum(int l, int r) {
+        r++; // make inclusive [l, r]
         assert(0 <= l && l <= r && r <= _n);
         return sum(r) - sum(l);
     }

@@ -36,6 +36,7 @@ template <class S, S (*op)(S, S), S (*e)()> struct segtree {
     }
 
     S prod(int l, int r) const {
+        r++; // make inclusive [l, r]
         assert(0 <= l && l <= r && r <= _n);
         S sml = e(), smr = e();
         l += size;

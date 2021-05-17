@@ -48,6 +48,7 @@ struct lazy_segtree {
     }
 
     S prod(int l, int r) {
+        r++; // make inclusive [l, r]
         assert(0 <= l && l <= r && r <= _n);
         if (l == r) return e();
 
@@ -80,6 +81,7 @@ struct lazy_segtree {
         for (int i = 1; i <= log; i++) update(p >> i);
     }
     void apply(int l, int r, F f) {
+        r++; // make inclusive [l, r]
         assert(0 <= l && l <= r && r <= _n);
         if (l == r) return;
 
