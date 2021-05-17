@@ -5,7 +5,7 @@ build
 tools/ac-library.zip
 __pycache__
 
-
+.idea
 [^/]*.cpp
 *.dSYM
 testing/*.txt
