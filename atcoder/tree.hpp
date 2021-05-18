@@ -174,7 +174,7 @@ public:
         assert(!euler_tour_path_queries.empty());
         int uEuler = euler_tour_path_queries[u].front();
         int vEuler = euler_tour_path_queries[v].front();
-        int ancEuler = stable.queryFirstIndex(min(uEuler, vEuler), max(uEuler, vEuler));
+        int ancEuler = stable.query_first_index(min(uEuler, vEuler), max(uEuler, vEuler));
         return euler_tour_path_queries_rev[ancEuler];
     }
 };

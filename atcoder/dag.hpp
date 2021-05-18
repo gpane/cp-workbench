@@ -1,7 +1,3 @@
-//
-// Created by Gianluca Pane on 5/17/21.
-//
-
 #ifndef CURRENT_DAG_CPP
 #define CURRENT_DAG_CPP
 

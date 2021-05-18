@@ -1,7 +1,3 @@
-//
-// Created by Gianluca Pane on 5/16/21.
-//
-
 #ifndef CPP_LINK_CUT_SPLAY_HPP
 #define CPP_LINK_CUT_SPLAY_HPP
 

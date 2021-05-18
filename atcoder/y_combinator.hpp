@@ -1,7 +1,3 @@
-//
-// Created by Gianluca Pane on 5/15/21.
-//
-
 #ifndef CPP_Y_COMBINATOR_HPP
 #define CPP_Y_COMBINATOR_HPP
 

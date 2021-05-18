@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.19)
 project(current)
 
 set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -I/Users/gianluca/Dropbox/contests/cpp/current -fsanitize=address -g -O0 -Wfatal-errors -Wall -Wextra -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -Wno-unused-result -Wno-sign-conversion -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -fsanitize=address -fsanitize=undefined -fno-sanitize-recover=all -fstack-protector -D_FORTIFY_SOURCE=2 -fvisibility=hidden")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -I . -fsanitize=address -g -O0 -Wfatal-errors -Wall -Wextra -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -Wno-unused-result -Wno-sign-conversion -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -fsanitize=address -fsanitize=undefined -fno-sanitize-recover=all -fstack-protector -D_FORTIFY_SOURCE=2 -fvisibility=hidden")
 
 add_library(current
         atcoder/convolution.hpp
@@ -22,24 +22,6 @@ add_library(current
         atcoder/segtree.hpp
         atcoder/string.hpp
         atcoder/twosat.hpp
-
-        atcoder/convolution
-        atcoder/fenwicktree
-        atcoder/internal_bit
-        atcoder/internal_csr
-        atcoder/internal_math
-        atcoder/internal_queue
-        atcoder/internal_scc
-        atcoder/internal_type_traits
-        atcoder/lazysegtree
-        atcoder/math
-        atcoder/maxflow
-        atcoder/mincostflow
-        atcoder/modint
-        atcoder/scc
-        atcoder/segtree
-        atcoder/string
-        atcoder/twosat
 
         # me
         atcoder/combinatorics.hpp

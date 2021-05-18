@@ -1,7 +1,3 @@
-//
-// Created by Gianluca Pane on 5/15/21.
-//
-
 #ifndef CPP_SPARSE_TABLE_HPP
 #define CPP_SPARSE_TABLE_HPP
 
@@ -37,7 +33,7 @@ public:
         }
     }
 
-    int queryFirstIndex(int l, int r) {
+    int query_first_index(int l, int r) {
         assert(l >= 0 && r < (int) arr.size() && l <= r);
         int best = -1;
         int curr = l;
@@ -58,7 +54,7 @@ public:
     }
 
     T query(int l, int r) {
-        return arr[queryFirstIndex(l, r)];
+        return arr[query_first_index(l, r)];
     }
 };
 
