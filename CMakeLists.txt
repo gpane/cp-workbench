@@ -23,6 +23,24 @@ add_library(current
         atcoder/string.hpp
         atcoder/twosat.hpp
 
+        atcoder/convolution
+        atcoder/fenwicktree
+        atcoder/internal_bit
+        atcoder/internal_csr
+        atcoder/internal_math
+        atcoder/internal_queue
+        atcoder/internal_scc
+        atcoder/internal_type_traits
+        atcoder/lazysegtree
+        atcoder/math
+        atcoder/maxflow
+        atcoder/mincostflow
+        atcoder/modint
+        atcoder/scc
+        atcoder/segtree
+        atcoder/string
+        atcoder/twosat
+
         # me
         atcoder/combinatorics.hpp
         atcoder/dag.hpp
