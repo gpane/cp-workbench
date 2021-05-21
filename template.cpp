@@ -32,6 +32,12 @@ namespace atcoder {}
 using namespace std;
 using namespace atcoder;
 
+template<class T>
+void debug(vector<T>& arr) {
+    for (int val : arr) cerr << val << ' ';
+    cerr << '\n';
+}
+
 static bool MULTIPLE_CASES = false;
 static long long MOD = (long long) 1e9 + 7;
 
