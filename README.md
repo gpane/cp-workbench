@@ -8,7 +8,7 @@ Include the desired library, e.g. `#include <atcoder/segtree.hpp>` (do not use q
 
 This relies on the Competitive Companion chrome extension and [this app](https://github.com/gpane/cp-parser) to produce sample input and expected output files under `samples/`.
 
-When the files are created, run `.a/test-samples.sh solution.cpp` to run the solution file against the samples.
+When the files are created, run `./test-samples.sh <solution-file>` to run the solution file against the samples.
 
 ### Brute force testing
 
@@ -17,6 +17,10 @@ When the files are created, run `.a/test-samples.sh solution.cpp` to run the sol
 2. Path to solution file.
 3. Path to validation file (could be a naive implementation).
 It will run until a discrepancy is found and produces in.txt, mine.txt, and theirs.txt for the problem input, solution output, and validation output, respectively.
+
+### Clean slate
+
+Run `./clean-slate` to reset problem and generator files.
 
 ### Libraries used
 - [AtCoder Library](https://github.com/atcoder/ac-library)
