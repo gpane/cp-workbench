@@ -4,6 +4,6 @@
 [submodule "test/benchmark/benchmark"]
 	path = test/benchmark/benchmark
 	url = https://github.com/google/benchmark
-[submodule "testing/testlib"]
-	path = testing/testlib
+[submodule "brute-testing/testlib"]
+	path = brute-testing/testlib
 	url = https://github.com/MikeMirzayanov/testlib

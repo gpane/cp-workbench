@@ -9,5 +9,9 @@ __pycache__
 [^/]*.cpp
 !template.cpp
 *.dSYM
-testing/*.txt
+brute-testing/*.txt
+brute-testing/gen.cpp
+samples/input*
+samples/output*
+samples/expected*
 cmake-build-debug

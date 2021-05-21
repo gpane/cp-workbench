@@ -2,6 +2,7 @@
 problem_files="a.cpp b.cpp c.cpp d.cpp e.cpp f.cpp"
 
 for problem_file in $problem_files; do
-	cp template.cpp $problem_file
+	cp template.cpp "$problem_file"
 done
 
+cp brute-testing/gen-template.cpp brute-testing/gen.cpp
