@@ -39,7 +39,7 @@ void debug(vector<T>& arr) {
 }
 
 static bool MULTIPLE_CASES = false;
-static long long MOD = (long long) 1e9 + 7;
+// #define mint modint1000000007
 
 void solve() {
 }

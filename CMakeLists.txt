@@ -50,6 +50,7 @@ add_library(current
         atcoder/sparse_table.hpp
         atcoder/tree.hpp
         atcoder/y_combinator.hpp
+        atcoder/tensor.hpp # ecnerwala
         )
 
 
