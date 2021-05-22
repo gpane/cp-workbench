@@ -34,7 +34,7 @@ using namespace atcoder;
 
 template<class T>
 void debug(vector<T>& arr) {
-    for (int val : arr) cerr << val << ' ';
+    for (T val : arr) cerr << val << ' ';
     cerr << '\n';
 }
 

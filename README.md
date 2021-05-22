@@ -2,7 +2,7 @@ Extension of the [AtCoder Library](https://github.com/atcoder/ac-library).
 
 ### Library '#include's
 
-Include the desired library, e.g. `#include <atcoder/segtree.hpp>` (do not use quotes). When ready to submit, run `./copy-full-src <solution_file>.cpp` to copy the full source to the clipboard.
+Include the desired library, e.g. `#include <atcoder/segtree.hpp>` (do not use quotes). When ready to submit, run `./copy-full-src <solution-file>` to copy the full source to the clipboard.
 
 ### Testing against samples
 
