@@ -38,6 +38,8 @@ void debug(vector<T>& arr) {
     cerr << '\n';
 }
 
+////////////////////////////// SOLUTION BEGINS HERE //////////////////////////////
+
 static bool MULTIPLE_CASES = false;
 // #define mint modint1000000007
 

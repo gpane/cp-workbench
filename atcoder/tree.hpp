@@ -172,10 +172,10 @@ public:
 
     int query(int u, int v) {
         assert(!euler_tour_path_queries.empty());
-        int uEuler = euler_tour_path_queries[u].front();
-        int vEuler = euler_tour_path_queries[v].front();
-        int ancEuler = stable.query_first_index(min(uEuler, vEuler), max(uEuler, vEuler));
-        return euler_tour_path_queries_rev[ancEuler];
+        int u_euler = euler_tour_path_queries[u].front();
+        int v_euler = euler_tour_path_queries[v].front();
+        int anc_euler = stable.query_first_index(min(u_euler, v_euler), max(u_euler, v_euler));
+        return euler_tour_path_queries_rev[anc_euler];
     }
 };
 
