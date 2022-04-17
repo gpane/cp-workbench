@@ -3,4 +3,4 @@ filename=$1
 noext="${filename%.*}"
 rm -f "output.txt"
 time rm -f $noext
-time /usr/local/bin/g++-9 -g -O2 -std=gnu++17 -Wfatal-errors -Wall -Wextra -pedantic -O2 -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -Wno-unused-result -Wno-sign-conversion -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -fsanitize=address -fsanitize=undefined -fno-sanitize-recover=all -fstack-protector -D_FORTIFY_SOURCE=2 -fvisibility=hidden -DLOCAL -o $noext $1 -I$2
+time /usr/local/bin/g++-11 -g -O2 -std=gnu++17 -Wfatal-errors -Wall -Wextra -pedantic -O2 -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -Wno-unused-result -Wno-sign-conversion -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -fsanitize=address -fsanitize=undefined -fno-sanitize-recover=all -fstack-protector -D_FORTIFY_SOURCE=2 -fvisibility=hidden -DLOCAL -o $noext $1 -I$2
