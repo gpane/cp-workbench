@@ -1,5 +1,7 @@
 build
 
+cp-parser/.gradle
+
 *.html
 !tools/*.html
 tools/ac-library.zip
