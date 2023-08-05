@@ -4,4 +4,4 @@ filename=$1
 noext="${filename%.*}"
 rm -f "output.txt"
 time rm -f $noext
-time /usr/local/bin/g++-11 -g -O3 -std=gnu++17 -Wfatal-errors -Wall -Wextra -Wconversion -pedantic -Wshadow -DLOCAL -o $noext $1 -I$2
+time /usr/bin/g++ -g -O3 -std=gnu++17 -Wfatal-errors -Wall -Wextra -Wconversion -pedantic -Wshadow -DLOCAL -o $noext $1 -I$2
